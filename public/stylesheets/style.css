@@ -1,0 +1,93 @@
+/* Reset de margens e preenchimento padrão */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Estilo global para o corpo da página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Estilo do container principal */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+/* Estilo do cabeçalho */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 1.5rem;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+.form-control,
+.input-group-append {
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+/* Estilo da seção de entrega (delivery) */
+.delivery {
+  margin-top: 20px;
+}
+
+.delivery p b {
+  font-size: 1.2em;
+}
+
+/* Estilo da linha de entrega (deliveryRow) */
+.deliveryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Estilo da caixa de entrega (deliveryBox) */
+.deliveryBox {
+  display: flex; /* Adicionado */
+  flex-direction: column; /* Adicionado */
+  justify-content: center; /* Adicionado */
+  align-items: center; /* Adicionado */
+  flex: 0 0 48%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 1.5rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.deliveryBox b {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem; /* Adicionado para espaçamento opcional entre o texto e o número */
+}
+
+/* Adicional: Estilo do botão de sucesso */
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Adicional: Hover do botão de sucesso */
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
